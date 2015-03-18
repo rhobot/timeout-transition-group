@@ -1,0 +1,33 @@
+{
+  "name": "timeout-transition-group",
+  "version": "0.0.1",
+  "author": "Ryan Rho",
+  "description": "non-JSX version of timeout-transition-group created by Khan Academy",
+  "homepage": "https://github.com/rhobot/timeout-transition-group/",
+  "keywords": ["react", "timeout", "animation", "CSSTransitionGroup", "CSSreac", "khan"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhobot/timeout-transition-group.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rhobot/timeout-transition-group/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/rhobot/timeout-transition-group/blob/master/LICENSE"
+  },
+  "main": "lib/timeout-transition-group.js",
+  "dependencies": {
+    "global": "^4.3.0",
+    "lodash.assign": "^3.0.0",
+    "r-dom": "^1.0.2",
+    "react": "^0.12.2",
+    "timers-browserify": "^1.4.0"
+  },
+  "devDependencies": {
+    "lint-trap": "^1.0.1"
+  },
+  "scripts": {
+    "lint": "lint-trap"
+  }
+}
