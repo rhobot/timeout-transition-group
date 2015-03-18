@@ -26,3 +26,9 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# Linters
+.editorconfig
+.eslintrc
+.jscsrc
+.jshintrc
