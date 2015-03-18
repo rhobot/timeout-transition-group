@@ -1,10 +1,17 @@
 {
   "name": "timeout-transition-group",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Ryan Rho",
   "description": "non-JSX version of timeout-transition-group created by Khan Academy",
   "homepage": "https://github.com/rhobot/timeout-transition-group/",
-  "keywords": ["react", "timeout", "animation", "CSSTransitionGroup", "CSSreac", "khan"],
+  "keywords": [
+    "react",
+    "timeout",
+    "animation",
+    "CSSTransitionGroup",
+    "CSSreac",
+    "khan"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/rhobot/timeout-transition-group.git"
