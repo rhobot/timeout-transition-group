@@ -1,6 +1,6 @@
 {
   "name": "timeout-transition-group",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "author": "Ryan Rho",
   "description": "non-JSX version of timeout-transition-group created by Khan Academy",
   "homepage": "https://github.com/rhobot/timeout-transition-group/",
