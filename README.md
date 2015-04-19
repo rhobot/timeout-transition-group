@@ -4,6 +4,10 @@ This is a **non-JSX** version of [`timeout-transition-group`](https://github.com
 
 See https://github.com/Khan/react-components for React components, including `timeout-transition-group` created by Khan Academy.
 
+# Usage
+
+Use v1 for React 0.13, and less for React 0.12.
+
 # License
 
 [MIT License](http://opensource.org/licenses/MIT)
