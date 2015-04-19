@@ -27,8 +27,8 @@
   "dependencies": {
     "global": "^4.3.0",
     "lodash.assign": "^3.0.0",
-    "r-dom": "^1.0.2",
-    "react": "^0.12.2",
+    "r-dom": "^1.2.0",
+    "react": ">=0.13.0 <14",
     "timers-browserify": "^1.4.0"
   },
   "devDependencies": {
