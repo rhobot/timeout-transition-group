@@ -6,7 +6,7 @@ See https://github.com/Khan/react-components for React components, including `ti
 
 # Usage
 
-Use v1 for React 0.13, and less for React 0.12.
+Use v1 for React 0.13, and v0 for React 0.12.
 
 # License
 
