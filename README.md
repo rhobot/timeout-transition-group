@@ -1,12 +1,39 @@
 # timeout-transition-group
 
-This is a **non-JSX** version of [`timeout-transition-group`](https://github.com/Khan/react-components/blob/master/js/timeout-transition-group.jsx) created by Khan Academy. Many thanks to [Khan Academy](https://www.khanacademy.org)!
+A React Transition Group better than CSSTransitionGroup.
 
-See https://github.com/Khan/react-components for React components, including `timeout-transition-group` created by Khan Academy.
+This library is originally created by Khan Academy at [`timeout-transition-group`](https://github.com/Khan/react-components/blob/master/js/timeout-transition-group.jsx).
+Many thanks to [Khan Academy](https://www.khanacademy.org)!
 
-# Usage
+# Why TimeoutTransitionGroup instead of CSSTransitionGroup?
 
-Use v1 for React 0.13, and v0 for React 0.12.
+CSSTransitionGroup, provided as a React addon, is buggy.
+Sometimes the animated component that is supposed to leave does not leave.
+
+This is because CSSTransitionGroup component listens to CSS `transitionend` event which are not always sent.
+TimeoutTransitionGroup fixes this bug by setting the timeout of animation.
+
+# How to install
+
+```
+npm i --save timeout-transition-group
+```
+
+Use v1 or above for React 0.13, and v0 for React 0.12.
+
+# How to use
+
+It's the quite similar to CSSTransitionGroup with two additional props, `enterTimeout` and `leaveTimeout`.
+The values are in millisecond:
+
+```
+<TimeoutTransitionGroup
+  enterTimeout={200}
+  leaveTimeout={250}
+  transitionName="transitionName">
+  <div key="hello-world">Hello world!</div>
+</TimeoutTransitionGroup>
+```
 
 # License
 
