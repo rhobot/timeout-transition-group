@@ -1,6 +1,6 @@
 {
   "name": "timeout-transition-group",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "author": "Ryan Rho",
   "description": "non-JSX version of timeout-transition-group created by Khan Academy",
   "homepage": "https://github.com/rhobot/timeout-transition-group/",
@@ -26,16 +26,14 @@
   "main": "lib/timeout-transition-group.js",
   "dependencies": {
     "global": "^4.3.0",
-    "lodash.assign": "^3.0.0",
-    "r-dom": "^2.1.0"
-  },
-  "peerDependencies": {
-    "react": ">=0.13.0 <0.14"
+    "object.assign": "^4.0.3",
+    "r-dom": "^2.0.0",
+    "react": "^0.14.0"
   },
   "devDependencies": {
-    "lint-trap": "^1.0.1"
+    "uber-standard": "^5.0.1"
   },
   "scripts": {
-    "lint": "lint-trap"
+    "lint": "uber-standard"
   }
 }
