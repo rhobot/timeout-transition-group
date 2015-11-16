@@ -28,7 +28,8 @@
     "global": "^4.3.0",
     "object.assign": "^4.0.3",
     "r-dom": "^2.0.0",
-    "react": "^0.14.0"
+    "react": "^0.14.0",
+    "react-addons-transition-group": "^0.14.0"
   },
   "devDependencies": {
     "uber-standard": "^5.0.1"
