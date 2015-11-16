@@ -19,7 +19,7 @@ TimeoutTransitionGroup fixes this bug by setting the timeout of animation.
 npm i --save timeout-transition-group
 ```
 
-Use v1 or above for React 0.13, and v0 for React 0.12.
+Use v2 or above for React 0.14, v1 for 0.13, and v0 for React 0.12.
 
 # How to use
 
