@@ -24,16 +24,20 @@
     "url": "https://github.com/rhobot/timeout-transition-group/blob/master/LICENSE"
   },
   "main": "lib/timeout-transition-group.js",
+  "peerDependencies": {
+    "react": "0.14.x - 15.x",
+    "react-dom": "0.14.x - 15.x",
+  },
   "dependencies": {
     "global": "^4.3.0",
     "object.assign": "^4.0.3",
     "r-dom": "^2.0.0",
-    "react": "^0.14.0",
-    "react-addons-transition-group": "^0.14.0",
-    "react-dom": "^0.14.6"
+    "react-addons-transition-group": "^0.14.0"
   },
   "devDependencies": {
-    "uber-standard": "^5.0.1"
+    "uber-standard": "^5.0.1",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.6"
   },
   "scripts": {
     "lint": "uber-standard"
