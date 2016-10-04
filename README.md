@@ -1,3 +1,9 @@
+# Deprecated
+
+Use `react-addons-css-transition-group` instead as it supports `transitionEnterTimeout` and `transitionLeaveTimeout`.
+
+----
+
 # timeout-transition-group
 
 A React Transition Group better than CSSTransitionGroup.
